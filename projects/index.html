@@ -1,0 +1,346 @@
+﻿<center>
+<h1>JSGOLF.club projects</h1>
+
+<h4>By Maxime Euzière (xem), subzey, Martin Kleppe (aemkei), Mathieu Henri (p01), Litterallylara, Tommy Hodgins (innovati), Veubeke, Anders Kaare, Keith Clark, Addy Osmani, bburky, rlauck, cmoreau, maettig, thiemowmde, ilesinge, adlq, xen_the, mmastrac, corruptio, c4ntelope, ...</h4>
+
+<div class=item>
+  <h3>MiniDwitter <a href="https://github.com/xem/miniDwitter"><img src="../github.png"></a></h3>
+  <style class=code><body onload='t=0;x=c.getContext`2d`;with(Math)S=sin,C=cos,T=tan;R=(r,g,b,a=1)=>`rgba(${[r|0,g|0,b|0,a]})`;setInterval("eval(A.value);t+=.016",16)'><canvas id=c width=1920 height=1080 style=width:5in></canvas><br><textarea id=A cols=60 oninput=t=0>/* Dweet here */</style>
+  <iframe border=0 width=520 height=350 src="https://xem.github.io/miniDwitter"></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniMinifier <a href="https://github.com/xem/miniMinifier"><img src="../github.png"></a></h3>
+  <h5>128b CSS minifier</h5>
+  <style class=code><textarea oninput='value=value.replace(/(\/\*[^]+?\*\/|\s)+/g," ").replace(/^ |([ ;]*)([^\w:*.#% -])([ ;]*)|\*?(:) */g,"$2$4")'></style>
+  <br>
+  <textarea oninput='value=value.replace(/(\/\*[^]+?\*\/|\s)+/g," ").replace(/^ |([ ;]*)([^\w:*.#% -])([ ;]*)|\*?(:) */g,"$2$4")' cols=80 rows=5 placeholder="Paste CSS code here"></textarea>
+  <br>
+  <h5>128b HTML minifier</h5>
+  <style class=code><textarea oninput='value=value.replace(/(< !--[^]+?->|\s)+/g," ").replace(/ (?=<|$)|<\/[tl].>|<.p> *(<[p/])| ?\/?(>)/gi,"$1$2")'></style>
+  <br>
+  <textarea oninput='value=value.replace(/(\/\*[^]+?\*\/|\s)+/g," ").replace(/^ |([ ;]*)([^\w:*.#% -])([ ;]*)|\*?(:) */g,"$2$4")' cols=80 rows=5 placeholder="Paste HTML code here"></textarea>
+</div>
+
+<div class=item>
+  <h3>MiniLOSSST <a href="https://github.com/xem/miniLOSSST"><img src="../github.png"></a></h3>
+  <style class=code><body style=width:48ch onload='onkeydown=d=e=>{if(!w){f=l<25
+z=f?4:l<31?+"757666"[l-25]:l<44?5:l<54?6:0
+k=e.which%36
+k==16&&d(++l,w=n=0)
+k<5?(q=p+[,-1,-16,1,16][k],q+=!f&&n&&m(q)>1?[,z,16*z,-z,-16*z][k]:0,m(q)<2&&(n=1),s.includes(q)||(s=[p=q,...s])):(n=0,s=[p=81,80])
+s.length=l<6?8:l<12?11:l<21?13:f?15:l<31?14:l<44?15:l<48?16:l<52?20:22
+m=p=>(x=p%16)<(t=8-z/2|0)||x>t+z-1||(y=p>>4)<t-2||y>t+z-(f?1:3)?2:!(parseInt("19r,yn,2nn,on,sc,2yc,1aer,3ddj,34v,7pb,327,m48,1egj,ab87,4var,44cc,4v9z,5lye,cdfb,cn3c,1am6,gtjz,9tuf,4wz2,b7cj,1hrdfddq8y,g3t6b,2tc09uicht,1ibkfyb,pesw8s3,16nz5,9jorj,j7r6m,jio5o,fv5kd,jokrj,jdyrj,b2lvj,b1asx,jopxb,9luxq,d8473,jnejl,jrkbh,e03aae4,427yw3s,im7v7p,ofbd9ip,46nskug,p2yhnzn,ofaqrjz,1v4x23l,v7krrlr,uq3x8jj".split(",")[l],36)/2**(z*(y-t+2)+(x-t))&1)*(f+1)
+w=s.every(p=>!m(p))&&setTimeout`d(++l${500}w=n=0)`
+for(B=i="";i<176;i++)b.innerHTML=B+=`<a style=width:3ch;height:3ch;float:left;background:#${s.includes(i)?w?161:"da6":[111,,777][m(i)]}>${i-p?"":"👀"}`}}
+d(w=l=n=0)'id=b></style>
+  <h5>Click to start, Arrow keys to move, R to reset</h5>
+  <iframe border=0 width=450 height=300 src="https://xem.github.io/miniLOSSST"></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniCodeEditor <a href="https://github.com/xem/miniCodeEditor"><img src="../github.png"></a></h3>
+  <style class=code><iframe onload='id++<3?outerHTML+=`<textarea oninput="f[${id}]=value;f.srcdoc=f[3]+\`<script>\${f[1]}</script><style>\`+f[2]"rows=9>`:id="f"'></style>
+  <iframe style="transform:scale(.8)translateX(-10%)" border=0 width=900 height=200 src="https://xem.github.io/miniCodeEditor/complete.html#//%20JavaScript%0A%0Awho.innerHTML%20%3D%20%0A%22world%22%3B%7F/*%20CSS%20*/%0A%0Abody%20{%0A%20%20background%3A%20%2326A%3B%0A%20%20color%3A%20%23fff%3B%0A%20%20font%3A%2030px%20arial%3B%0A%20%20line-height%3A%20130px%3B%0A%20%20text-align%3A%20center%3B%0A}%7F%3C!--%20HTML%20--%3E%0A%0AHello%2C%0A%3Cb%20id%3D%22who%22%3E%3C/b%3E%20!1"></iframe>
+</div>
+
+<div class=item>
+  <h3>Mini ASCII Sierpinski <a href="https://github.com/xem/miniASCIISerpinski"><img src="../github.png"></a></h3>
+  <style class=code><svg onload='for(i=1024;i--;)write(i%63<32?`<p>`:i&i>>5&&`_`)'></style>
+  <div id=asciiserpinski style=line-height:.8em></div>
+  <svg height=0 onload='for(i=1024;i--;)asciiserpinski.innerHTML+=(i%63<32?`<p>`:i&i>>5&&`_`)'>
+</div>
+
+<div class=item>
+  <h3>MiniPlot <a href="https://github.com/xem/miniPlot"><img src="../github.png"></a></h3>
+  <style class=code><input oninput=with(c=a.getContext`2d`)for(c.z=fillRect,c.Z=fillText,z(0,75,W=a.width|=0,1),z(u=150,0,1,W),Z(0,155,70),Z(u,280,70),Z(75,155,9),x=-u;x<u;x+=.01)z(u+x,75-eval(value),1,1) value=y=99/x id=f><p><canvas id=a><svg onload=f.oninput()></style>
+  <iframe width=400 height=220 src="https://xem.github.io/miniPlot/"></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniGameOfLife <a href="https://github.com/xem/miniGameOfLife"><img src="../github.png"></a> / <a href="https://github.com/xem/miniGameOfLife2"><img src="../github.png"></a></h3>
+  <style class=code><canvas id=a><svg onload=setInterval('for(a.width=e=[i=6e3];i--;a.getContext`2d`.fillRect(i%k,i/k,1,e[i]=(n-1|d[i])==3|i%9&!d))for(jof[n=1,73,k=74,75])n+=d[i+j]+d[i-j];d=e',d=0)></style>
+  <br>
+  <canvas id=gameoflife width=100 height=10></canvas>
+  <br>
+  <button onclick="setInterval('for(gameoflife.width=gameoflife.height=100,e=[i=6e3];i--;gameoflife.getContext`2d`.fillRect(i%k,i/k,1,e[i]=(n-1|d[i])==3|i%9&!d))for(jof[n=1,73,k=74,75])n+=d[i+j]+d[i-j];d=e',d=0)">Play</button>
+</div>
+
+<div class=item>
+  <h3>MiniAttractors <a href="https://github.com/xem/miniPeterDeJongAttractor"><img src="../github.png"></a> / <a href="https://github.com/xem/miniCliffordAttractor"><img src="../github.png"></a></h3>
+  <style class=code><canvas id=c width=1250 height=1050><svg onload=z=c.getContext`2d`;[A,B,C,D]=prompt('A,B,C,D','1.4,1.56,1.4,-6.56').split`,`;setInterval`with(Math)for(i=1e4;i--;)z.fillStyle='rgba(0,0,0,.01)',z.fillRect(999+99*(X=D*sin(A*U)-sin(B*Y)),500+99*(Y=C*cos(A*U)+cos(B*Y)),1,1${U=Y=1}U=X)`></style>
+  <iframe id=attractor border=0 width=650 height=30 src=""></iframe>
+  <br>
+  <button onclick="attractor.height=350;attractor.src='attractor.html'">Play</button>
+</div>
+
+<div class=item>
+  <h3>MiniTetrisTheme <a href="https://github.com/xem/miniTetrisTheme"><img src="../github.png"></a></h3>
+  <style class=code>with(new AudioContext)with(createOscillator())connect(destination),start(setInterval(V=>frequency.value=`R>AIA>77${d='ARIA>>AIRRA777'}IIWnbWRR${d}`.charCodeAt(++t%64*.75)*6,t=192))</style>
+  <iframe id=tetristheme border=0 width=350 height=10 src=""></iframe>
+  <br>
+  <button onclick="tetristheme.src='http://xem.github.io/miniTetrisTheme'">Play</button>
+  <button onclick="tetristheme.src=''">Stop</button>
+</div>
+
+<div class=item>
+  <h3>MiniAudioViz <a href="https://github.com/xem/miniAudioViz"><img src="../github.png"></a></h3>
+  <style class=code><canvas id=c><audio src=3 onplay="with(new AudioContext)with(createMediaElementSource(this))connect(destination),connect(A=createAnalyser());setInterval('A.getByteFrequencyData(D=new Uint8Array(c.width^=0));D.map((v,i)=>c.getContext`2d`.fillRect(i,150,1,-v/2))',9)"autoplay></style>
+  <iframe id=audioviz border=0 width=350 height=30 src=""></iframe>
+  <br>
+  <button onclick="audioviz.height=200;audioviz.src='http://xem.github.io/miniAudioViz'">Play</button>
+  <button onclick="audioviz.height=200;audioviz.src=''">Stop</button>
+</div>
+
+<div class=item>
+  <h3>Atree <a href="https://github.com/xem/atree"><img src="../github.png"></a></h3>
+  <style class=code><canvas id=c><svg onload=setInterval("c.width|=Q=Math.cos;for(i=57;i--;)c.getContext`2d`.fillRect(99+i*Q(o),i*3,z=2+Q(o+=14),z)",o=9)></style>
+  <iframe width=320 height=180 src="http://xem.github.io/atree/tinytree.html"></iframe>
+</div>
+
+<div class=item>
+  <h3>Sheet <a href="https://github.com/xem/sheet"></a></h3>
+  <style class=code>o=b=>{for(i in{}+o)with(M=Math)M[y='ABCD'[i%5]+-~(i/5%6)]=b?document.write(y&&i<30?`<input placeholder=${y} id=`+y:'<br',` onfocus=value=[l[id]] onblur=l[id]=value,o()>`):(top[y].value=[/^=/.test(z=l[y])?eval('x'+z):x=z],x-~x?+x:x)};o(o(l=localStorage))</style>
+  <iframe width=650 height=200 src="http://xem.github.io/sheet/full.html"></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniBurrowsWheeler <a href="https://github.com/xem/miniBurrowsWheeler"><img src="../github.png"></a></h3>
+  <style class=code>s=>[...s+='ÿ'].map((_,i)=>s[S='slice'](i)+s[S](0,i)).sort().map(x=>x[S](-1)).join``</style>
+<br>
+<textarea oninput="value=[...value+='ÿ'].map((_,i)=>value[S='slice'](i)+value[S](0,i)).sort().map(x=>x[S](-1)).join``" cols=80 rows=2 placeholder="Paste text to transform here"></textarea>
+<br>
+<br>
+
+<style class=code>(d,t=d.indexOf`ÿ`)=>[...[...d].keys()].sort((x,y)=>d[a='charCodeAt'](x)-d[a](y)||x-y).map((m,_,i)=>d[t=i[t]]).join``.slice(0,-1)</style>
+<br>
+<textarea oninput="t=value.indexOf`ÿ`;value=[...[...value].keys()].sort((x,y)=>value[a='charCodeAt'](x)-value[a](y)||x-y).map((m,_,i)=>value[t=i[t]]).join``.slice(0,-1)" cols=80 rows=2 placeholder="Paste text to untransform here"></textarea>
+</div>
+
+<div class=item>
+  <h3>MiniTetris <a href="https://github.com/veu/mini-tetris"><img src="../github.png"></a> / <a href="https://github.com/justecorruptio/golf"><img src="../github.png"></a></h3>
+  <h5>by Veubeke</h5>
+  <style class=code><body id=Z onload="M=e=>P&&(h=0,b=[...B],p=P.map((v,i)=>(E=~i%2,x=eval(e[0]),E?0:b[h|=x<0|x>9|b[y]>>x&1|y>17,y]|=1<<x,y=x)),h),b=C=Array(9),(onkeydown=_=s=>(s?(k=s.which-38)%2-k||M`k?v-!E*k:P[2]-(P[i^1]-P[3])*(E|1)`&&M`v`:G||(P=P||[...'02121303040506161715'.substr(new Date%7*2,8,B=[...C,...b].filter(v=>v^1023||!(S+=s+=100)).slice(-18))],M`v-E`?k=p&=G=M`v`:0,setTimeout(_,k-2?200:20,0)),P=p,S|=b.map(v=>{S+=`
+`;for(x=10;x--;)Z.innerText=S+='□■'[G^(v^1023+P&&v>>x&1)]})))(S=P=k=G=0)"style=font:2em/.6'></style>
+  <iframe id=tetrisveu width=300 height=30 src=""></iframe>
+  <br>
+  <button onclick="tetrisveu.height=400;tetrisveu.src='https://veu.github.io/mini-tetris/dist/tetris.html'">Play</button>
+  
+  <br>
+  <br>
+  <br>
+  <h5>by Corruptio</h5>
+  <style class=code><body onload="v=c=>(h=37461+c%2*36703>>i%4*2+(i&2)*t&3,c&2?3-t/5-h:h);C=[S=u=0];setInterval(onkeyup=e=>{C=[...B=u?B:C.filter(_=>_-2046?x=y=4:!++S,t=r%7)];u=[x,y,i=r+4,e];for(e&&(g=e.which-38)-2?g?x-=g:r++:y++;--i;~B[b=~v(r)+26-y]-2049&k&&~b?i<T?Z.innerText=z+=`_#
+`[C[b]|=k,i%11?C[i/11|0]>>i%11&1:2]+`| `:z=S:[x,y,r,u]=u)k=1<<v(r+1)+x},r=T=210)"id=Z></style>
+  <iframe id=tetriscorruptio width=300 height=30 src=""></iframe>
+  <br>
+  <button onclick="tetriscorruptio.height=450;tetriscorruptio.src='https://justecorruptio.github.io/golf/tetris.html'">Play</button>
+</div>
+
+<div class=item>
+  <h3>MiniUnicode <a href="https://github.com/xem/miniUnicode"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniKeyCode <a href="https://github.com/xem/miniKeyCode"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniSerpinskiTriangle <a href="https://github.com/xem/miniSerpinskiTriangle"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniDragonCurve <a href="https://github.com/xem/miniDragonCurve"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniURI <a href="https://github.com/xem/miniURI"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniBookmarklet <a href="https://github.com/xem/miniBookmarklet"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniMusic <a href="https://github.com/xem/miniMusic"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniArecibo <a href="https://github.com/xem/miniArecibo"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniMandelbrot <a href="https://github.com/xem/miniMandelbrot"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniBurningShip <a href="https://github.com/xem/miniBurningShip"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>If the moon was 1px <a href="https://github.com/xem/if-the-moon-was-1px"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniRGBdoodle <a href="https://github.com/xem/miniRGBdoodle"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniConwaySerpinski <a href="https://github.com/xem/miniConwaySerpinski"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniSpeechRecognition & Synthesis <a href="https://github.com/xem/miniSpeechRecognition"><img src="../github.png"></a> / <a href="https://github.com/xem/miniSpeechSynthesis"><img src="../github.png"></a> / <a href="https://github.com/xem/miniSpeechRecognitionAndSynthesis"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniCam<a href="https://github.com/xem/miniCam"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>PERIOD1k <a href="https://github.com/codegolf/period1k"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniPi <a href="https://github.com/xem/miniPi"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniSnake <a href="https://github.com/xem/miniSnake"><img src="../github.png"></a> / <a href="https://github.com/p01/snake"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniASCIIart <a href="https://github.com/xem/miniAsciiArt"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniDoodle <a href="https://github.com/xem/miniDoodle"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniLangtonLoops <a href="https://github.com/xem/miniLangtonLoops"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3>MiniLangtonAnt <a href="https://github.com/xem/miniLangtonAnt"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+<div class=item>
+  <h3> <a href="https://"><img src="../github.png"></a></h3>
+  <style class=code></style>
+  <iframe width=700 height=300 src=""></iframe>
+</div>
+
+
+<style>
+h1, h2, h3, h4, div, a { font-family: arial; vertical-align: middle; }
+body { max-width: 750px; margin: auto; }
+h1 { text-align: center }
+h3 a { display: inline-block; margin: -5px 0 0; }
+.item { margin: 20px 0; padding: 20px 0; border: 5px solid #def }
+style.code, script.code { display: block; width: 700px; text-align: left; padding: 5px; background: #eee; font-size: 12px; font-family: courier, monospace; word-break: break-all; white-space: pre-wrap; word-wrap: break-word;}
+iframe { margin: 10px; border: 0; }
